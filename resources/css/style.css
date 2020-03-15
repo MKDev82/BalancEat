@@ -474,18 +474,43 @@ a:active {
 .section-subscription {}
 
 .sub-plan {
-    height: 300px;
-    /* width: 100%; */
-    padding: 1rem 2rem;
-    /* margin: 0 1.5rem; */
+    position: relative;
+    height: 450px;
+    width: 90%;
+    /* padding: 1rem 2rem; */
+    margin: 0 auto;
+    /*margin: 0 1.5rem; */
     border: 1px solid #e67e22;
-    box-shadow:
+    box-shadow:        
         0 2.5px 2.5px rgba(0, 0, 0, 0.025),
         0 5.9px 5.6px rgba(0, 0, 0, 0.036),
         0 10.8px 10px rgba(0, 0, 0, 0.045),
         0 19px 17px rgba(0, 0, 0, 0.054),
-        0 36.2px 31.4px rgba(0, 0, 0, 0.065),
-        0 100px 80px rgba(0, 0, 0, 0.09);
+        0 36.2px 31.4px rgba(0, 0, 0, 0.065),        0 100px 80px rgba(0, 0, 0, 0.09);
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    overflow: hidden;
+    background-color: #A9C9FF;
+    background-image: -webkit-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-image: -moz-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-image: -o-linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+
+.sub-plan h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    font-size: 2.8rem;
+    margin: 0;
 }
 
 /*-----------------------------------------*/
